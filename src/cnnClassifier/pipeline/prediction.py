@@ -10,7 +10,7 @@ class PredictionPipeline:
     def predict(self):
         project_root = Path(__file__).resolve().parents[3]
 
-        model_path = project_root / "artifacts" / "training" / "model.h5"
+        model_path = project_root /  "model" / "model.h5"
         if not model_path.exists():
             model_path = project_root / "model" / "model.h5"
 
