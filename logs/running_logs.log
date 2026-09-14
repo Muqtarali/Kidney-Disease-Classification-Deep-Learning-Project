@@ -685,3 +685,291 @@ x==========x]
 [2026-09-14 23:16:36,851: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2026-09-14 23:35:50,833: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-14 23:35:53,083: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion satge started <<<<<<]
+[2026-09-14 23:35:53,087: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-14 23:35:53,090: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-14 23:35:53,091: INFO: common: created directory at: artifacts]
+[2026-09-14 23:35:53,094: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-09-14 23:35:53,095: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-09-14 23:36:02,690: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-09-14 23:36:04,738: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion satge completed <<<<<<
+
+x==========x]
+[2026-09-14 23:36:19,332: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-14 23:36:35,447: INFO: stage_02_prepare_base_model: >>>>>> stage Perpare base model started <<<<<<]
+[2026-09-14 23:36:35,450: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-14 23:36:35,453: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-14 23:36:35,454: INFO: common: created directory at: artifacts]
+[2026-09-14 23:36:35,458: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-09-14 23:36:36,363: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-09-14 23:36:36,906: INFO: stage_02_prepare_base_model: >>>>>> stage Perpare base model completed <<<<<<
+
+x==========x]
+[2026-09-14 23:36:40,417: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-14 23:36:54,335: INFO: stage_03_model_training: *******************]
+[2026-09-14 23:36:54,336: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2026-09-14 23:36:54,339: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-14 23:36:54,343: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-14 23:36:54,344: INFO: common: created directory at: artifacts]
+[2026-09-14 23:36:54,346: INFO: common: created directory at: artifacts\training]
+[2026-09-14 23:38:43,362: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-09-14 23:38:47,186: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-14 23:39:02,012: INFO: stage_04_model_evaluation: *******************]
+[2026-09-14 23:39:02,014: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-09-14 23:39:02,020: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-14 23:39:02,026: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-14 23:39:02,028: INFO: common: created directory at: artifacts]
+[2026-09-14 23:39:44,129: INFO: common: json file saved at: scores.json]
+[2026-09-14 23:39:44,140: INFO: common: json file saved at: scores.json]
+[2026-09-14 23:39:44,147: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-09-14 23:39:44,149: INFO: stage_04_model_evaluation: *******************]
+[2026-09-14 23:39:44,150: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-09-14 23:39:44,179: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-14 23:39:44,192: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-14 23:39:44,214: INFO: common: created directory at: artifacts]
+[2026-09-14 23:40:24,360: INFO: common: json file saved at: scores.json]
+[2026-09-14 23:40:24,364: INFO: common: json file saved at: scores.json]
+[2026-09-14 23:40:24,373: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-09-15 00:08:32,114: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-15 00:10:39,717: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-15 00:11:00,308: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-15 00:11:25,111: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.11:8080]
+[2026-09-15 00:11:25,114: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-09-15 00:20:31,668: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:20:31] "GET / HTTP/1.1" 200 -]
+[2026-09-15 00:20:58,891: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:20:58] "GET / HTTP/1.1" 200 -]
+[2026-09-15 00:21:06,130: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:21:06] "GET / HTTP/1.1" 200 -]
+[2026-09-15 00:21:33,779: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask_cors\extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask_cors\decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\app.py", line 40, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2026-09-15 00:21:33,878: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:21:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2026-09-15 00:22:31,274: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:22:31] "GET / HTTP/1.1" 200 -]
+[2026-09-15 00:22:37,431: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask_cors\extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask_cors\decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\app.py", line 40, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2026-09-15 00:22:37,435: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:22:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2026-09-15 00:23:36,500: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-15 00:23:52,604: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.11:8080]
+[2026-09-15 00:23:52,604: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-09-15 00:24:00,874: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:24:00] "GET / HTTP/1.1" 200 -]
+[2026-09-15 00:24:21,334: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:24:21] "GET / HTTP/1.1" 200 -]
+[2026-09-15 00:24:27,237: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask_cors\extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask_cors\decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\app.py", line 40, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2026-09-15 00:24:27,247: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:24:27] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2026-09-15 00:25:29,189: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-15 00:25:42,919: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.11:8080]
+[2026-09-15 00:25:42,920: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-09-15 00:25:47,760: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:25:47] "GET / HTTP/1.1" 200 -]
+[2026-09-15 00:25:53,551: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask_cors\extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\flask_cors\decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\app.py", line 46, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\ALI\Kidney-Disease-Classification-Deep-Learning-Project\.venv\Lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2026-09-15 00:25:53,571: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:25:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2026-09-15 00:31:17,106: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-15 00:31:30,917: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.11:8080]
+[2026-09-15 00:31:30,917: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-09-15 00:31:38,080: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:31:38] "GET / HTTP/1.1" 200 -]
+[2026-09-15 00:31:46,109: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:31:46] "POST /predict HTTP/1.1" 200 -]
+[2026-09-15 00:31:54,890: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:31:54] "POST /predict HTTP/1.1" 200 -]
+[2026-09-15 00:32:08,443: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:32:08] "POST /predict HTTP/1.1" 200 -]
+[2026-09-15 00:33:02,447: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:33:02] "GET / HTTP/1.1" 200 -]
+[2026-09-15 00:33:10,657: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:33:10] "POST /predict HTTP/1.1" 200 -]
+[2026-09-15 00:35:56,586: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-15 00:36:10,348: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.11:8080]
+[2026-09-15 00:36:10,350: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-09-15 00:36:36,977: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:36:36] "GET / HTTP/1.1" 200 -]
+[2026-09-15 00:36:44,864: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:36:44] "POST /predict HTTP/1.1" 200 -]
+[2026-09-15 00:38:03,646: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-15 00:38:18,876: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-15 00:38:36,808: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.11:8080]
+[2026-09-15 00:38:36,808: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-09-15 00:38:58,516: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:38:58] "GET / HTTP/1.1" 200 -]
+[2026-09-15 00:39:07,628: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:39:07] "POST /predict HTTP/1.1" 200 -]
+[2026-09-15 00:50:09,292: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-15 00:50:22,099: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.11:8080]
+[2026-09-15 00:50:22,100: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-09-15 00:51:04,507: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:51:04] "GET / HTTP/1.1" 200 -]
+[2026-09-15 00:51:12,429: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:51:12] "POST /predict HTTP/1.1" 200 -]
+[2026-09-15 00:51:35,626: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:51:35] "POST /predict HTTP/1.1" 200 -]
+[2026-09-15 00:51:50,942: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:51:50] "POST /predict HTTP/1.1" 200 -]
+[2026-09-15 00:51:52,955: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:51:52] "POST /predict HTTP/1.1" 200 -]
+[2026-09-15 00:52:00,715: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000226990DCF40> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2026-09-15 00:52:00,715: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:52:00] "POST /predict HTTP/1.1" 200 -]
+[2026-09-15 00:52:53,749: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-15 00:53:43,162: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-15 00:53:56,170: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.11:8080]
+[2026-09-15 00:53:56,170: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-09-15 00:54:39,963: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:54:39] "POST /predict HTTP/1.1" 200 -]
+[2026-09-15 00:54:40,332: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:54:40] "GET / HTTP/1.1" 200 -]
+[2026-09-15 00:54:52,497: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:54:52] "POST /predict HTTP/1.1" 200 -]
+[2026-09-15 00:55:07,332: INFO: _internal: 127.0.0.1 - - [15/Sep/2026 00:55:07] "POST /predict HTTP/1.1" 200 -]
+[2026-09-15 00:57:28,479: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-15 00:57:43,932: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-15 00:57:43,937: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-15 00:57:43,938: INFO: common: created directory at: artifacts]
+[2026-09-15 00:57:43,938: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-09-15 00:57:44,947: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-09-15 00:57:45,550: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-15 00:57:45,554: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-15 00:57:45,555: INFO: common: created directory at: artifacts]
+[2026-09-15 00:57:45,556: INFO: common: created directory at: artifacts\training]
+[2026-09-15 01:25:19,643: INFO: __init__: Logging setup successfully complete ho gaya hai!]
+[2026-09-15 01:25:28,439: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.11:8080]
+[2026-09-15 01:25:28,440: INFO: _internal: [33mPress CTRL+C to quit[0m]

@@ -3,6 +3,7 @@ import urllib.request as request
 from zipfile import ZipFile
 import tensorflow as tf
 import time
+import math
 from pathlib import Path
 from cnnClassifier.entity.config_entity import TrainingConfig
 
@@ -64,8 +65,8 @@ class Training:
         model.save(path)
 
     def train(self):
-        self.steps_per_epoch = max(1, self.train_generator.samples // self.train_generator.batch_size)
-        self.validation_steps = max(1, self.valid_generator.samples // self.valid_generator.batch_size)
+        self.steps_per_epoch = max(1, math.ceil(self.train_generator.samples / self.train_generator.batch_size))
+        self.validation_steps = max(1, math.ceil(self.valid_generator.samples / self.valid_generator.batch_size))
 
         self.model.fit(
             self.train_generator,
