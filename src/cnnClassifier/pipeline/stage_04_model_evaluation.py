@@ -19,10 +19,10 @@ class EvaluationPipeline:
         evaluation.evaluation()
         evaluation.save_score()
 
-        if os.environ.get("ENABLE_MLFLOW", "0") == "1" and os.environ.get("MLFLOW_TRACKING_PASSWORD"):
-            evaluation.log_into_mlflow()
-        else:
-            print("MLflow logging skipped. Set ENABLE_MLFLOW=1 and MLFLOW_TRACKING_PASSWORD to enable logging.")
+        # if os.environ.get("ENABLE_MLFLOW", "0") == "1" and os.environ.get("MLFLOW_TRACKING_PASSWORD"):
+        #     evaluation.log_into_mlflow()
+        # else:
+        #     print("MLflow logging skipped. Set ENABLE_MLFLOW=1 and MLFLOW_TRACKING_PASSWORD to enable logging.")
 
 
 
